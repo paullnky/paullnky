@@ -226,6 +226,7 @@ header .logo > a{
   line-height:80px;
   padding-right:40px;
   border-bottom: 0px solid black;
+  padding-top:30px;
 }
 
 header .logo > a:hover{
