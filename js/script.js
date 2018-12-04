@@ -34,8 +34,8 @@ Ajax link page transitions
         if (typeof history.pushState != 'undefined') history.pushState(data, 'Page', link);
         
           setTimeout(function(){						
-          $('#preloader').delay(50).fadeIn(600);
-          $('html, body').delay(1000).animate({ scrollTop:  0  },1000);						
+          $('#preloader').delay(0).fadeIn(0);
+          $('html, body').delay(0).animate({ scrollTop:  0  },0);						
 					
 					setTimeout(function(){
 							
@@ -46,11 +46,11 @@ Ajax link page transitions
 							finished: function() {
 								Website();
 								backLoading();
-								$('.opacity-nav').delay(50).fadeOut(600);
+								$('.opacity-nav').delay(0).fadeOut(0);
               },										
               waitForAll: true
 						});								
-					},1000);
+					},0);
 					},0);
 			}
 		});
@@ -83,11 +83,11 @@ function Website() {
 		$('body').jKit();
 		backgroundmenu();
 		setTimeout(function(){
-			$(".preloader").fadeOut(500);							
-		},2000);
+			$(".preloader").fadeOut(0);							
+		},0);
 		setTimeout(function(){
 			$('header').fadeIn();							
-		},500);
+		},0);
 }
 
 
