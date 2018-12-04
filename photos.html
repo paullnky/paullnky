@@ -3,53 +3,46 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
-  <title>PAULLNKY</title>
-  <meta name="description" content="MY ART PORTFOLIO">
-  <meta name="keywords" content="art, berlin, abstract, acrylic, acryl, photography">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="img/icon.png" />
+	<meta charset="utf-8">
+	<title>PAULLNKY</title>
+	<meta name="description" content="MY ART PORTFOLIO">
+	<meta name="keywords" content="art, berlin, abstract, acrylic, acryl, photography">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="icon" type="image/png" href="img/icon.png" />
 
-<!--Style-->
+	<!--Style-->
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-responsive.css">
-  
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-responsive.css">
+
   
 </head>
 
 <body>
 
-<div class="opacity-nav">
+	<div class="opacity-nav">
 
-        <div class="menu-index" id="buttons" style="z-index:999999">
-        <i class="fa  fa-close"></i>
-        </div>
+		<ul class="menu-fullscreen">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="paintings.html">PAINTINGS</a></li>
+			<li><a href="antifakte.html">ANTIFAKTE</a></li>
+			<li><a href="photos.html">PHOTOS</a></li>
+		</ul>
 
-    <ul class="menu-fullscreen">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="paintings.html">PAINTINGS</a></li>
-      <li><a href="antifakte.html">ANTIFAKTE</a></li>
-      <li><a href="photos.html">PHOTOS</a></li>
-    </ul>
-
-</div>
+	</div>
 
 
-  <!--Header-->
-  <header id="fullscreen">
+	<!--Header-->
+  
+	<header id="fullscreen">
     
-      <div class="logo" id="full"><a class="ajax-link" href="index.html">PAULLNKY</a></div>
+      <div class="logo" id="full"><a href="index.html">PAULLNKY</a></div>
       
         <div class="menu-index" id="button">
-        <i class="fa fa-bars"></i>
         </div>
         
-  </header>
-
-  <div class="clear"></div>
+	</header>
 
   <!--Content-->
 
@@ -116,7 +109,7 @@
   
 	<script>
     $('#button, #buttons').on('click', function() {
-      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+      $( ".opacity-nav" ).fadeToggle( "fast", "linear" );
     // Animation complete.
     });
   </script>
