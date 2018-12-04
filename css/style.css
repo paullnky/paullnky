@@ -75,7 +75,7 @@ NAVIGATION OPACITY
   height:100%;
   top:0;
   z-index:9999;
-  background:rgba(0,0,0,0.95);
+  background:rgba(0,0,0,0.6);
 }
 
 ul.menu-fullscreen{
@@ -152,19 +152,6 @@ header.boxed .header-margin{
 header.boxed .header-margin-mini{
   width:90%;
   margin:0 auto;
-}
-
-
-ul.social-icon{
-  float:right;
-}
-
-ul.social-icon a{
-  float:right;
-  font-size:15px;
-  border-bottom:0;
-  color:black;
-  padding-right:0px !important;
 }
 
 .menu-index{
@@ -335,7 +322,6 @@ CONTENT
   color:#000000;
   font-weight:100;
   line-height:70px;
-  font-style:italic;
   text-decoration:underline;
 }
 
