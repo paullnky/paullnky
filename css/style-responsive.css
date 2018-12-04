@@ -272,6 +272,11 @@
   header.boxed .header-margin{
     width:280px;
   }
+  
+  header .logo > a{
+	font-size:50px;
+	
+  }
 
   .content .text-intro{
     width:280px;
