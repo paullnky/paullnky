@@ -102,6 +102,16 @@ ul.menu-fullscreen li > a:hover{
   color:#ffffff;
 }
 
+ul li {
+	color: #8d8d8d;
+	line-height: 15px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-family: "Fang Song", sans-serif;
+	font-style: italic;
+	
+}
+
 
 #full{
   width:1140px;
@@ -244,7 +254,7 @@ header li > a #active{
 }
 
 header li ul{
-  overflow: hidden; display: none; background: #f9f9f9; z-index:20;
+  overflow: hidden; display: none; background: #fff; z-index:20;
 }
 
 header li ul li a{
