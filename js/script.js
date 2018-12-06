@@ -10,7 +10,7 @@ Load Page
 				Website();
 				$('body').jKit();
 		},
-		waitForAll: true
+		waitForAll: false
 	});
 
 
