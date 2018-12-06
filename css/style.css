@@ -1,3 +1,7 @@
+html {
+	min-height: 100%;
+}
+
 body{
   font-family: 'Fang Song', sans-serif;
   font-size:14px;
@@ -325,6 +329,12 @@ CONTENT
   margin: 150px auto 0;
 }
 
+.content .text-intro a{
+	color: #8d8d8d;
+	font-style: italic;
+	text-decoration: underline;
+}
+
 .content .text-intro h1{
   font-size:33px;
   width:40%;
@@ -526,7 +536,7 @@ footer{
   margin-top:150px;
   height:150px;
   overflow:hidden;
-  position:relative;
+  position:absolute;
   z-index:10;
 }
 
