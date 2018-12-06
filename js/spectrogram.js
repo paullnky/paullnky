@@ -6,7 +6,7 @@ var ligneCourante = 0;
 
 function preload() {
  
-  fichier = loadSound("music/bones.mp3");
+  fichier = loadSound("bones.mp3");
   
 }
 
