@@ -221,6 +221,7 @@ header .logo > a{
   float:left;
   line-height:80px;
   padding-right:40px;
+  padding-top: 16px;
   border-bottom: 0px solid black;
 }
 

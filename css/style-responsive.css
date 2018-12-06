@@ -23,6 +23,7 @@
   .prev-next{
     max-width:1000px;
   }
+ 
 
 
   /*
@@ -275,6 +276,7 @@
   
   header .logo > a{
 	font-size:50px;
+	padding-top: 10px;
 	
   }
 
