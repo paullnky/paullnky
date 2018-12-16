@@ -470,7 +470,7 @@ PORTFOLIO GRID
 }
 
 li.grid-item{
-  width:360px;
+  width:550px;
   position:relative;
   float:left;
   padding:15px;
@@ -519,7 +519,7 @@ li.grid-item{
 }
 
 li.grid-item img{
-  width:360px;
+  width:550px;
 }
 
 /*
