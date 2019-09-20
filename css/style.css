@@ -8,7 +8,6 @@ body{
   font-weight: 400;
   overflow-y:scroll;
   -webkit-font-smoothing: antialiased;
-  justify-content: center;
 }
 
 ::selection {
