@@ -327,6 +327,10 @@ CONTENT
   width: 1140px;
   margin-top: 150px;
   margin: 150px auto 0;
+	
+	
+  justify-content: center;
+  align-items: center;
 }
 
 .content .text-intro a{
@@ -554,16 +558,6 @@ footer{
   width: 100%;
   text-align:center;
   float: left;
-}
-
-div.gallery {
-	margin-left: 20%;
-	margin-right: 20%;
-    float: center;
-    width: 60%;
-	text-align: center;
-	margin-bottom: 50px;
-	margin-top: 50px;
 }
 
 
