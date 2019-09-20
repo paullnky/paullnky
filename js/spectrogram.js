@@ -1,3 +1,5 @@
+canvas.parent('sketch-holder');
+
 var fichier;
 
 var fft;
