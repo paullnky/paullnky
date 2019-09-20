@@ -329,8 +329,7 @@ CONTENT
   margin: 150px auto 0;
 	
 	
-  justify-content: center;
-  align-items: center;
+position:center;
 }
 
 .content .text-intro a{
