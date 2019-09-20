@@ -1,4 +1,4 @@
-cnv.parent("canvas"); 
+
 
 var fichier;
 
