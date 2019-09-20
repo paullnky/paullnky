@@ -1,4 +1,4 @@
-cnv.position(200, 200);
+cnv.position(900, 900);
 
 var fichier;
 
