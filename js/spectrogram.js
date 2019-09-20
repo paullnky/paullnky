@@ -1,5 +1,3 @@
-cnv.position(900, 2000);
-
 var fichier;
 
 var fft;
