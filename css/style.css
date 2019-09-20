@@ -556,7 +556,7 @@ footer{
   float: left;
 }
 
-.opacity-nav{
+.sketch-holder{
   position:fixed;
   display:none;
   width:100%;
