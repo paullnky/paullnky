@@ -1,3 +1,5 @@
+cnv.parent("canvas"); 
+
 var fichier;
 
 var fft;
